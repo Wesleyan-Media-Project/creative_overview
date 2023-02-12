@@ -106,3 +106,81 @@ In addition, some parts of the code require R to be installed, along with the fo
 - stringr
 - dplyr
 
+---
+## [ad_tone](https://github.com/Wesleyan-Media-Project/ad_tone)
+
+This repository contains models to predict the tone of political ads. The main model "ad_tone_constructed" is based on this [flowchart](https://docs.google.com/presentation/d/11E9kX1oVYfMooTdD1GAJfwJtdPIQpYB3lJ7i5e83ZEw/edit#slide=id.g1062def0ba3_0_0).
+### Dependencies
+ To run the script that constructs this variable, the following packages are required:
+ - [ABSA](https://github.com/Wesleyan-Media-Project/ABSA), 
+ - [race of focus](https://github.com/Wesleyan-Media-Project/race_of_focus),
+- candidates dataset
+- `mention-based ad tone` 
+
+In addition, some parts of the code require R to be installed, along with the following R libraries: 
+- data.table
+- tidyverse
+- dplyr
+- purrr
+- stringr
+
+---
+## [ad_goal_classifier](https://github.com/Wesleyan-Media-Project/ad_goal_classifier)
+The purpose of this repository is to classify the goals of advertisements across different data sources, including Facebook, TV, and Google. It involves a series of scripts that clean and prepare the data, train a machine learning model, and apply the trained model to different data sets for inference. 
+
+For more details on the project pipeline, refer to the [README](https://github.com/Wesleyan-Media-Project/ad_goal_classifier/blob/main/README.md) in the repository.
+
+### Dependencies
+Some scripts run in a Python environment require the following packages:
+- sklearn
+- pandas
+- numpy
+- joblib
+
+You can install these libraries by running the following command:
+
+`pip install scikit-learn pandas numpy joblib`
+
+In addition, some parts of the code require R to be installed, along with the following R libraries:
+- data.table
+- stringr
+- stringi
+- dplyr
+- tidyr
+
+---
+## [attack_like](https://github.com/Wesleyan-Media-Project/attack_like)
+This repository contains code for an attack-like negativity measure applied to the 1.18 million Facebook dataset "fb_2020_attacklike.csv". The classifier outputs class labels of either "Support" or "Attack" as well as class probabilities, which can be used to create a "Contrast" label. The classifier is trained on 7,949 political advertisements from a 2018 Facebook data set and uses a pre-trained DistilBERT base model to fine-tune the model for the classification of ad tone. 
+
+For more details on the classifier, refer to the [README](https://github.com/Wesleyan-Media-Project/attack_like#readme) in the repository.
+
+
+The code "1_embed_apsr.py" is about sentiment analysis of text data using the BERT (Bidirectional Encoder Representations from Transformers) model. The goal of this code is to build a model to predict the sentiment (either Attack, Promote or Contrast) of the text based on its content. The following packages are required to run this code:
+
+- numpy
+- pandas
+- pickle
+- scikit-learn
+- torch
+- transformers
+
+"2_embed_fb2020.py" preprocesses a Facebook ad dataset and extracts sentiment embeddings from the ad texts using the Pretrained DistilBERT Model by huggingface (Transformers library).
+This code requires the following Python packages:
+
+- numpy
+- pandas
+- torch
+- transformers
+- warnings
+- time
+
+---
+## [fb_2020](https://github.com/Wesleyan-Media-Project/fb_2020)
+This repository contains codes that load, merge and process data from multiple sources to create a single comprehensive dataset.The data sets are in the form of CSV (Comma-Separated Value) files, and the code uses the Pandas library to load and manipulate them. More information about the datasets, variables and output files can be found in the [README](https://github.com/Wesleyan-Media-Project/fb_2020#readme)
+
+### Dependencies
+Some scripts run in a Python environment using Jupyter Notebook and require the following packages:
+- pandas
+- numpy
+- ast
+- re
