@@ -1,6 +1,6 @@
 # creative_overview
 
-An overview of all repos belonging to the CREATIVE project
+An overview of all repos belonging to the CREATIVE project. 
 Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description) for clarity on acronyms.
 
 ## Summary of Working Repositories
@@ -8,7 +8,7 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 ### [Issue classifier](https://github.com/Wesleyan-Media-Project/issue_classifier)
 
 > **Summary**
-> Applied to uncoded ads in order to sort them. Uses two different binary classifiers in order to sort through ads, since they can have multiple problems: binary (higher precision, lower recall) and multilabel (higher F1 score). Binary classifier is used for issues with missing data, multilabel with none missing. Deals separately with digital media model training on Facebook data then imputing the missing FB data. Using 65 issues.
+> Applied to uncoded ads in order to sort them. Uses two different binary classifiers in order to sort through ads, since they can have multiple problems: binary (higher precision, lower recall) and multilabel (higher F1 score). Binary classifier is used for issues with missing data, multilabel with none missing. Deals separately with digital media model training on Facebook data then imputing the missing FB data. Using 65 political issues.
 
 > **Important Notes**
 > Problems in issue coding that need to be updated in issue_coding folder, classifying issues that occurred at least 100 times, but excluding problematic issues 116 and 206
