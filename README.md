@@ -201,6 +201,11 @@ In addition, some parts of the code require R to be installed, along with the fo
 - stringr
 - dplyr
 
+Some other repositories that are needed:
+- [entity_linking_2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022)
+- [datasets](https://github.com/Wesleyan-Media-Project/datasets)
+- [entity_linking](https://github.com/Wesleyan-Media-Project/entity_linking)
+
 ---
 ## [ad_tone](https://github.com/Wesleyan-Media-Project/ad_tone)
 
