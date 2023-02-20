@@ -1,7 +1,7 @@
 # creative_overview
 
 An overview of all repos belonging to the CREATIVE project. 
-Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description) for clarity on acronyms.
+Also, check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description) for clarity on acronyms. 
 
 ## Summary of Working Repositories
 
@@ -14,8 +14,9 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > Problems in issue coding that need to be updated in issue_coding folder, classifying issues that occurred at least 100 times, but excluding problematic issues 116 and 206
 
 > **Languages, Files, and others**
-> R, Python, Jupyter Notebook, RData file (RStudio), dta file, ipynb file, csv(comma-separated values) file, xlsx (microsoft excel spreadsheet) file, txt, json file, google ASR
+> R with RStudio, Python (with imports: sklearn, joblib, torch), Jupyter Notebook, RData file, dta file, ipynb file, csv(comma-separated values) file, xlsx (microsoft excel spreadsheet) file, txt, json file, google ASR
 
+---
 ### [Party Classifier with Unique ID](https://github.com/Wesleyan-Media-Project/party_classifier_pdid)
 
 > **Summary**
@@ -27,6 +28,7 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > **Languages, Files, and others**
 > Jupyter notebook
 
+---
 ### [Entity Linking](https://github.com/Wesleyan-Media-Project/entity_linking)
 
 > **Summary**
@@ -36,8 +38,9 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > No results, yet, for FaceBook
 
 > **Languages, Files, and others**
-> R, Python, md, txt, csv, rdata, gz, dta
+> R with RStudio, Python (with imports: spacy), md, txt, csv, rdata, gz, dta
 
+---
 ### [Race of Focus](https://github.com/Wesleyan-Media-Project/race_of_focus)
 
 > **Summary**
@@ -46,8 +49,9 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > **Important Notes** > `Race_of_focus_textonly.R` not up to date
 
 > **Languages, Files, and others**
-> R language only, csv, rdata
+> R with RStudio, csv, rdata
 
+---
 ### [Public Data](https://github.com/Wesleyan-Media-Project/public_data)
 
 > **Summary**
@@ -65,6 +69,7 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > **Languages, Files, and others**
 > N/A
 
+---
 ### [TV 2020 Data](https://github.com/Wesleyan-Media-Project/tv_2020)
 
 > **Summary**
@@ -75,6 +80,7 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > **Languages, Files, and others**
 > Jupyter Notebook, csv, dta, ipynb, google ASR, AWS face recognition
 
+---
 ### [Github How to Instructions](https://github.com/Wesleyan-Media-Project/github_howto)
 
 > **Summary**
@@ -86,6 +92,7 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > **Languages, Files, and others**
 > png files for visual explanations
 
+---
 ### [Facebook Entities](https://github.com/Wesleyan-Media-Project/fb_entities_2020)
 
 > **Summary**
@@ -97,6 +104,7 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > **Languages, Files, and others**
 > No languages, but the readme references csv
 
+---
 ### [Party Classifier](https://github.com/Wesleyan-Media-Project/party_classifier)
 
 > **Summary**
@@ -106,7 +114,7 @@ Also check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities
 > In `model_history.txt` describes remaining issues with classifiers, `original_query.txt` no longer used, do not currently only deduplicate within page_ids (currently deduplicate every concatenated ad)
 
 > **Languages, Files, and others**
-> Python, R, csv, gitnore, joblib file(for training models)
+> Python (with imports: sklearn and joblib), R with RStudio, csv, gitnore, joblib file(for training models)
 
 ---
 ## [face_url_scraper_2022](https://github.com/Wesleyan-Media-Project/face_url_scraper_2022)
@@ -279,7 +287,7 @@ Some scripts run in a Python environment using Jupyter Notebook and require the 
 - numpy
 - ast
 - re
-
+---
 
 ## Note on R and RData files From Markus Neumann:
 
