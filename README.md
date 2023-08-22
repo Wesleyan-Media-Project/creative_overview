@@ -2,7 +2,7 @@
 
 ## About
 
-The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a jointly founded infrastructure project by Wesleyan Media Project (WMP) and Privacy Tech Lab at Wesleyan University in Connecticut. This program is funded by a National Science Foundation grant to support making WMP’s work and data accessible to anyone. CREATIVE aims to provide cross-platform integration and standardization of digital advertising data related to federal elections by scraping or gaining access to digital ads themselves.(For more information on the CREATIVE project, click [here](https://www.creativewmp.com/)).
+The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a jointly founded infrastructure project by Wesleyan Media Project (WMP) and Privacy Tech Lab at Wesleyan University in Connecticut. This program is funded by a National Science Foundation grant to support making WMP’s work and data accessible to anyone. CREATIVE aims to provide cross-platform integration and standardization of digital advertising data related to federal elections by scraping or gaining access to digital ads themselves. (For more information on the CREATIVE project, click [here](https://www.creativewmp.com/)).
 
 To that end, we have created several repositories to acquire, process and standardize digital election advertising data across platforms. These repositories are grouped into five steps:
 
