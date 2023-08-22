@@ -131,3 +131,7 @@ dmypy.json
 #local macOS files 
 .DS_Store
 .idea/
+
+# Old Readme
+
+README (OLD).md
