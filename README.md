@@ -14,14 +14,14 @@ To that end, we have created several repositories to acquire, process and standa
 Below, you can find an overview of all repos belonging to the CREATIVE project. Also, check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description) for clarity on acronyms. 
 
 ## Working Repositories
----
+
 ## Step 1: Data Collection
 
 ### [Face Collection 2022](https://github.com/Wesleyan-Media-Project/face_url_scraper_2022)
 
 This is a Python-based web scraper that extracts images of political figures from URLs and saves the results in a CSV file.
 
-
+---
 ### [Facebook Ad Scraper](https://github.com/Wesleyan-Media-Project/fb_ad_scraper)
 
 This repository provides the scripts that replicate the workflow used by the Wesleyan Media Project to collect the media (images and video) from Facebook ads.
