@@ -27,6 +27,7 @@ This is a Python-based web scraper that extracts images of political figures fro
 This repository provides the scripts that replicate the workflow used by the Wesleyan Media Project to collect the media (images and video) from Facebook ads.
 
 ---
+---
 ## Step 2: Data Storage & Processing
 
 ### [TV 2020 Data](https://github.com/Wesleyan-Media-Project/tv_2020)
@@ -59,6 +60,7 @@ This repository contains codes that load, merge and process data from Facebook t
 This repository contains codes that load, merge and process data from Google to create a comprehensive dataset for the 2022 Election cycle.
 
 ---
+---
 ## Step 3: Preliminary Data Classification
 
 ### [Entity Linking 2020](https://github.com/Wesleyan-Media-Project/entity_linking)
@@ -80,6 +82,7 @@ This focuses on what political race the ad is about (based on what candidates ar
 
 This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) project. The repository contains data, model and script for ABSA training.
 
+---
 ---
 ## Step 4: Final Data Classification
 
@@ -114,6 +117,7 @@ Issue classifier, trained on 2018 and 2020 ads - both TV and Facebook, designed 
 
 This repository contains models to predict the tone of political ads. The main model "ad_tone_constructed" is based on this [flowchart](https://docs.google.com/presentation/d/11E9kX1oVYfMooTdD1GAJfwJtdPIQpYB3lJ7i5e83ZEw/edit#slide=id.g1062def0ba3_0_0).
 
+---
 ---
 ## Step 5: Data Output & Accessibility
 
