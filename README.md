@@ -7,7 +7,7 @@ The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a
 To that end, we have created several repositories to acquire, process and standardize digital election advertising data across platforms. These repositories are grouped into five steps:
 
 - Step 1: Data Collection
-- Step 2: Data Storage & Collection
+- Step 2: Data Storage & Processing
 - Step 3: Preliminary Data Classification
 - Step 4: Final Data Classification
 - Step 5: Data Output & Accessibility
