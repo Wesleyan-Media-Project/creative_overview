@@ -2,7 +2,7 @@
 
 ## About
 
-The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a jointly founded infrastructure project by Wesleyan Media Project (WMP) and Privacy Tech Lab at Wesleyan University in Connecticut. This program is funded by a National Science Foundation grant to support making WMP’s work and data accessible to anyone. CREATIVE aims to provide cross-platform integration and standardization of digital advertising data related to federal elections by scraping or gaining access to digital ads themselves. (For more information on the CREATIVE project, click [here](https://www.creativewmp.com/)).
+The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a jointly founded infrastructure project by Wesleyan Media Project [(WMP)](https://mediaproject.wesleyan.edu) and [Privacy Tech Lab](https://privacytechlab.org) at Wesleyan University in Connecticut. This program is funded by a National Science Foundation [grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2235006) to support making WMP’s work and data accessible to anyone. CREATIVE aims to provide cross-platform integration and standardization of digital advertising data related to federal elections by scraping or gaining access to digital ads themselves. (For more information on the CREATIVE project, click [here](https://www.creativewmp.com/)).
 
 To that end, we have created several repositories to acquire, process and standardize digital election advertising data across platforms. These repositories are grouped into five steps:
 
@@ -12,7 +12,9 @@ To that end, we have created several repositories to acquire, process and standa
 - Step 4: Final Data Classification
 - Step 5: Data Output & Accessibility
 
-Below, you can find an overview of all repos belonging to the CREATIVE project. Also, check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description) for clarity on acronyms. 
+Repositories defined in these steps do not neccesarily rely on a repository from a previous step. For example, the datasets repository found in step 2 does not rely on any repository in step 1, but does have repositories from step 1 that rely on data stored datasets like face_url_scrapper_2022. 
+
+Below, you can find an overview of all repositories under the WMP organization belonging to the CREATIVE project. Also, check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description) for clarity on acronyms. 
 
 ## Working Repositories
 
@@ -130,14 +132,7 @@ Contains a readme (.md file) that describes how to access data released by Faceb
 
 ### [Github How to Instructions](https://github.com/Wesleyan-Media-Project/github_howto)
 
-> **Summary**
-> Instructions on Github from wiki that goes over needed elements, like: git pull, push, merge, and commit in order to use GitHub. Folder structure instructions are also in the wiki link.
-
-> **Important Notes**
-> Can clean up files like `test.txt`
-
-> **Languages, Files, and others**
-> png files for visual explanations
+Instructions on Github from wiki that goes over needed elements, like: git pull, push, merge, and commit in order to use GitHub. Folder structure instructions are also in the wiki link.
 
 ---
 ## Note on R and RData files From Markus Neumann:
