@@ -20,38 +20,38 @@ Below, you can find an overview of all repositories under the WMP organization b
 
 ## Step 1: Data Collection
 
-### [Face Collection 2022](https://github.com/Wesleyan-Media-Project/face_url_scraper_2022)
+### [Face Collection 2022](https://github.com/Wesleyan-Media-Project/face_url_scraper_2022) (face_url_scraper_2022)
 
 This is a Python-based web scraper that extracts images of political figures from URLs and saves the results in a CSV file.
 
-### [Facebook Ad Scraper](https://github.com/Wesleyan-Media-Project/fb_ad_scraper)
+### [Facebook Ad Scraper](https://github.com/Wesleyan-Media-Project/fb_ad_scraper) (fb_ad_scraper)
 
 This repository provides the scripts that replicate the workflow used by the Wesleyan Media Project to collect the media (images and video) from Facebook ads.
 
-### [Facebook Ads Import](https://github.com/Wesleyan-Media-Project/fb_ads_import)
+### [Facebook Ads Import](https://github.com/Wesleyan-Media-Project/fb_ads_import) (fb_ads_imports)
 
 Scripts used by the Wesleyan Media Project to import Facebook political ads.
 
-### [Google Ads Archive](https://github.com/Wesleyan-Media-Project/google_ads_archive)
+### [Google Ads Archive](https://github.com/Wesleyan-Media-Project/google_ads_archive) 
 
 Scripts used by the Wesleyan Media Project to import Google political ads.
 
-### [Facebook Aggregate Reports Import](https://github.com/Wesleyan-Media-Project/fb_agg_reports_import)
+### [Facebook Aggregate Reports Import](https://github.com/Wesleyan-Media-Project/fb_agg_reports_import) (fb_agg_reports_import)
 
 Repository to collect and clean advertising reports from Facebook, ready to be analyzed.
 
-### [Facebook Page Names](https://github.com/Wesleyan-Media-Project/fb_page_names)
+### [Facebook Page Names](https://github.com/Wesleyan-Media-Project/fb_page_names) (fb_page_names)
 
 Data and SQL scripts showing the history of changes in page names of FB advertisers. This repository describes the known problems with changes in page names of Facebook advertisers.
 
 ---
 ## Step 2: Data Storage & Processing
 
-### [TV 2020 Data](https://github.com/Wesleyan-Media-Project/tv_2020)
+### [TV 2020 Data](https://github.com/Wesleyan-Media-Project/tv_2020) (tv_2022)
 
 Data/ datasets and Readme only. Contains data over the election season period (09/01/2020 - 11/ 04/2020) and 4,058 ads.
 
-### [Facebook Entities 2020](https://github.com/Wesleyan-Media-Project/fb_entities_2020)
+### [Facebook Entities 2020](https://github.com/Wesleyan-Media-Project/fb_entities_2020) (fb_entities_2020)
 
 Contains a readme about the 2020 FaceBook Entity files that describes where the Output files are and what variables type(FB, WMP, and CPR/OpenSecrets) are being used. Merges with the 1.18m fb_2020 repo data set (`02_fb_2020_118m_adid_var.ipynb`).
 
@@ -59,11 +59,11 @@ Contains a readme about the 2020 FaceBook Entity files that describes where the 
 
 This repository serves as a storage location for datasets used in other repositories.
 
-### [Facebook 2020](https://github.com/Wesleyan-Media-Project/fb_2020)
+### [Facebook 2020](https://github.com/Wesleyan-Media-Project/fb_2020) (fb_2020)
 
 This repository contains codes that load, merge and process data from Facebook to create a comprehensive dataset for the 2020 Election cycle.
 
-### [Facebook 2022](https://github.com/Wesleyan-Media-Project/fb_2022)
+### [Facebook 2022](https://github.com/Wesleyan-Media-Project/fb_2022) (fb_2022)
 
 This repository contains codes that load, merge and process data from Facebook to create a comprehensive dataset for the 2022 Election cycle.
 
@@ -74,7 +74,7 @@ This repository contains codes that load, merge and process data from Google to 
 ---
 ## Step 3: Preliminary Data Classification
 
-### [Entity Linking 2020](https://github.com/Wesleyan-Media-Project/entity_linking)
+### [Entity Linking 2020](https://github.com/Wesleyan-Media-Project/entity_linking) (entity_linking)
 
 Identifying mentions of candidates (and other important politicians) in ad text for the 2020 Election cycle.
 
@@ -86,18 +86,18 @@ This repository is an entity linker for 2022 election data. This entity linker w
 
 This focuses on what political race the ad is about (based on what candidates are mentioned in the ad) and needs to use the entity linking program in order to find out. Only contains data files (rdata and csv)
 
-### [Aspect-Based Sentiment Analysis](https://github.com/Wesleyan-Media-Project/ABSA)
+### [Aspect-Based Sentiment Analysis](https://github.com/Wesleyan-Media-Project/ABSA) (ABSA)
 
 This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) project. The repository contains data, model and script for ABSA training.
 
 ---
 ## Step 4: Final Data Classification
 
-### [Ad-level Party Classifier](https://github.com/Wesleyan-Media-Project/party_classifier)
+### [Ad-level Party Classifier](https://github.com/Wesleyan-Media-Project/party_classifier) (party_classifier)
 
 Multinomial party classifier, classifying ads into DEM/REP/OTHER. The difference to the Unique ID party classifier is that in this one, the training data consists of individual ads whose pd_id has party_all coded in the WMP entity file. By contrast, the Unique ID party classifier concatenates all ads of a pd_id into one.
 
-### [Party Classifier with Unique ID](https://github.com/Wesleyan-Media-Project/party_classifier_pdid)
+### [Party Classifier with Unique ID](https://github.com/Wesleyan-Media-Project/party_classifier_pdid) (party_classifier_pdid)
 
 Contains the steps to train the party classifier and links for training results. Model Performance (shown in a chart) looks for precision, recall, f1 score, and support for each party(republican, democrat, and other).
 
