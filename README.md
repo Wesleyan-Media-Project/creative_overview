@@ -7,7 +7,7 @@ The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a
 To that end, we have created several repositories to acquire, process and standardize digital election advertising data across platforms. These repositories are grouped into five steps:
 
 - [Step 1: Data Collection](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-1-data-collection)
-- [Step 2: Data Processing](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-2-data--processing)
+- [Step 2: Data Processing](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-2-data-processing)
 - [Step 3: Data Classification](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-3-data-classification)
 - [Step 4: Compiled Final Data](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-4-compiled-final-data)
 - [Step 5: Data Output & Accessibility](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-5-data-output--accessibility)
