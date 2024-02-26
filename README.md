@@ -10,7 +10,6 @@ To that end, we have created several repositories to acquire, process and standa
 - [Step 2: Data Processing](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-2-data-processing)
 - [Step 3: Data Classification](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-3-data-classification)
 - [Step 4: Compiled Final Data](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-4-compiled-final-data)
-- [Step 5: Data Output & Accessibility](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-5-data-output--accessibility)
 
 Repositories defined in these steps do not neccesarily rely on a repository from a previous step. For example, the datasets repository found in step 2 does not rely on any repository in step 1, but does have repositories from step 1 that rely on data stored datasets like face_url_scrapper_2022. 
 
@@ -118,21 +117,6 @@ Issue classifier, trained on 2018 and 2020 ads - both TV and Facebook, designed 
 ### [Ad Tone](https://github.com/Wesleyan-Media-Project/ad_tone)
 
 This repository contains models to predict the tone of political ads.
-
----
-## Step 5: Data Output & Accessibility
-
-### [Public Data](https://github.com/Wesleyan-Media-Project/public_data)
-
-Contains a readme (.md file) that describes how to access data released by Facebook from the Wesleyan Media Project. "One-off release of specific data" can be granted with citation notes.
-
----
-
-
-
-### [Github How to Instructions](https://github.com/Wesleyan-Media-Project/github_howto)
-
-Instructions on Github from wiki that goes over needed elements, like: git pull, push, merge, and commit in order to use GitHub. Folder structure instructions are also in the wiki link.
 
 ---
 ## Note on R and RData files From Markus Neumann:
