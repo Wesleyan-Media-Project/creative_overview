@@ -7,9 +7,9 @@ The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a
 To that end, we have created several repositories to acquire, process and standardize digital election advertising data across platforms. These repositories are grouped into five steps:
 
 - [Step 1: Data Collection](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-1-data-collection)
-- [Step 2: Data Storage & Processing](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-2-data-storage--processing)
-- [Step 3: Preliminary Data Classification](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-3-preliminary-data-classification)
-- [Step 4: Final Data Classification](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-4-final-data-classification)
+- [Step 2: Data Processing](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-2-data--processing)
+- [Step 3: Data Classification](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-3-data-classification)
+- [Step 4: Compiled Final Data](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-4-compiled-final-data)
 - [Step 5: Data Output & Accessibility](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-5-data-output--accessibility)
 
 Repositories defined in these steps do not neccesarily rely on a repository from a previous step. For example, the datasets repository found in step 2 does not rely on any repository in step 1, but does have repositories from step 1 that rely on data stored datasets like face_url_scrapper_2022. 
@@ -45,7 +45,7 @@ Repository to collect and clean advertising reports from Facebook, ready to be a
 Data and SQL scripts showing the history of changes in page names of FB advertisers. This repository describes the known problems with changes in page names of Facebook advertisers.
 
 ---
-## Step 2: Data Storage & Processing
+## Step 2: Data Processing
 
 ### [TV 2020 Data](https://github.com/Wesleyan-Media-Project/tv_2020) (tv_2022)
 
@@ -72,7 +72,7 @@ This repository contains codes that load, merge and process data from Facebook t
 This repository contains codes that load, merge and process data from Google to create a comprehensive dataset for the 2022 Election cycle.
 
 ---
-## Step 3: Preliminary Data Classification
+## Step 3: Data Classification
 
 ### [Entity Linking 2020](https://github.com/Wesleyan-Media-Project/entity_linking) (entity_linking)
 
@@ -91,7 +91,7 @@ This focuses on what political race the ad is about (based on what candidates ar
 This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) project. The repository contains data, model and script for ABSA training.
 
 ---
-## Step 4: Final Data Classification
+## Step 4: Compiled Final Data
 
 ### [Ad-level Party Classifier](https://github.com/Wesleyan-Media-Project/party_classifier) (party_classifier)
 
@@ -117,7 +117,7 @@ Issue classifier, trained on 2018 and 2020 ads - both TV and Facebook, designed 
 
 ### [Ad Tone](https://github.com/Wesleyan-Media-Project/ad_tone)
 
-This repository contains models to predict the tone of political ads. The main model "ad_tone_constructed" is based on this [flowchart](https://docs.google.com/presentation/d/11E9kX1oVYfMooTdD1GAJfwJtdPIQpYB3lJ7i5e83ZEw/edit#slide=id.g1062def0ba3_0_0).
+This repository contains models to predict the tone of political ads.
 
 ---
 ## Step 5: Data Output & Accessibility
