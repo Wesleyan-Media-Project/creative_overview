@@ -9,7 +9,7 @@ To that end, we have created several repositories to acquire, process and standa
 - [Step 0: Overview](https://github.com/Wesleyan-Media-Project/creative_overview)
 - [Step 1: Data Collection](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-1-data-collection)
 - [Step 2: Data Processing](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-2-data-processing)
-- [Step 2a/3a: Data Merging](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step2a-data-merging)
+- [Step 2a/3a: Data Merging](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step2a/3a-data-merging)
 - [Step 4: Compiled Final Data](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-4-compiled-final-data)
 
 Repositories defined in these steps do not neccesarily rely on a repository from a previous step. For example, the datasets repository found in step 2 does not rely on any repository in step 1, but does have repositories from step 1 that rely on data stored datasets like face_url_scrapper_2022. 
@@ -102,7 +102,7 @@ Issue classifier, trained on 2018 and 2020 ads - both TV and Facebook, designed 
 
 
 ---
-## Step 2a3a/: Data Merging
+## Step 2a/3a: Data Merging
 ### [Data Post Production](https://github.com/Wesleyan-Media-Project/data-post-production)
 
 This repo contains code that allows for merging different data fields and final data cleaning.
