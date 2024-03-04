@@ -6,9 +6,10 @@ The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a
 
 To that end, we have created several repositories to acquire, process and standardize digital election advertising data across platforms. These repositories are grouped into five steps:
 
+- [Step 0: Overview](https://github.com/Wesleyan-Media-Project/creative_overview)
 - [Step 1: Data Collection](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-1-data-collection)
 - [Step 2: Data Processing](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-2-data-processing)
-- [Step 3: Data Classification](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-3-data-classification)
+- [Step 2a/3a: Data Merging](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step2a-data-merging)
 - [Step 4: Compiled Final Data](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-4-compiled-final-data)
 
 Repositories defined in these steps do not neccesarily rely on a repository from a previous step. For example, the datasets repository found in step 2 does not rely on any repository in step 1, but does have repositories from step 1 that rely on data stored datasets like face_url_scrapper_2022. 
@@ -39,43 +40,27 @@ Scripts used by the Wesleyan Media Project to import Google political ads.
 
 Repository to collect and clean advertising reports from Facebook, ready to be analyzed.
 
-### [Facebook Page Names](https://github.com/Wesleyan-Media-Project/fb_page_names) (fb_page_names)
+### [Facebook PD ID](https://github.com/Wesleyan-Media-Project/fb_pd_id) (fb_pd_id)
 
-Data and SQL scripts showing the history of changes in page names of FB advertisers. This repository describes the known problems with changes in page names of Facebook advertisers.
+This repository provides the scripts for generating the FB identity ids - pd ids - used by WMP.
 
 ---
 ## Step 2: Data Processing
 
-### [TV 2020 Data](https://github.com/Wesleyan-Media-Project/tv_2020) (tv_2022)
+### [Image Vido Data Preparation](https://github.com/Wesleyan-Media-Project/image-video-data-preparation) (image-video-data-preparation)
 
-Data/ datasets and Readme only. Contains data over the election season period (09/01/2020 - 11/ 04/2020) and 4,058 ads.
+This repository contains code that allows for selecting and preprocessing image and video data for the AWS Rekognition pipeline, as well as querying text ads data.
 
-### [Facebook Entities 2020](https://github.com/Wesleyan-Media-Project/fb_entities_2020) (fb_entities_2020)
+### [Automatic Speech Recognition](https://github.com/Wesleyan-Media-Project/automatic-speech-recognition) (automatic-speech-recognition)
 
-Contains a readme about the 2020 FaceBook Entity files that describes where the Output files are and what variables type(FB, WMP, and CPR/OpenSecrets) are being used. Merges with the 1.18m fb_2020 repo data set (`02_fb_2020_118m_adid_var.ipynb`).
+This repo contains codes that replicate the workflow used by the Wesleyan Media Project to perform automatic speech recognition (ASR) on political ad videos.
 
-### [Datasets](https://github.com/Wesleyan-Media-Project/datasets)
+### [AWS Rekognition Image Video Processing](https://github.com/Wesleyan-Media-Project/aws-rekognition-image-video-processing) (aws-rekognition-image-video-processing)
 
-This repository serves as a storage location for datasets used in other repositories.
-
-### [Facebook 2020](https://github.com/Wesleyan-Media-Project/fb_2020) (fb_2020)
-
-This repository contains codes that load, merge and process data from Facebook to create a comprehensive dataset for the 2020 Election cycle.
-
-### [Facebook 2022](https://github.com/Wesleyan-Media-Project/fb_2022) (fb_2022)
-
-This repository contains codes that load, merge and process data from Facebook to create a comprehensive dataset for the 2022 Election cycle.
-
-### [Google 2022](https://github.com/Wesleyan-Media-Project/google_2022)
-
-This repository contains codes that load, merge and process data from Google to create a comprehensive dataset for the 2022 Election cycle.
+This repository contains code that replicates the workflow used by the Wesleyan Media Project to perform image and video recogonition on political ads through the Amazon Rekognition service (AWS SDK for Python).
 
 ---
 ## Step 3: Data Classification
-
-### [Entity Linking 2020](https://github.com/Wesleyan-Media-Project/entity_linking) (entity_linking)
-
-Identifying mentions of candidates (and other important politicians) in ad text for the 2020 Election cycle.
 
 ### [Entity Linking 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022)
 
@@ -89,20 +74,17 @@ This focuses on what political race the ad is about (based on what candidates ar
 
 This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) project. The repository contains data, model and script for ABSA training.
 
----
-## Step 4: Compiled Final Data
+### [Ad Tone](https://github.com/Wesleyan-Media-Project/ad_tone)
 
-### [Ad-level Party Classifier](https://github.com/Wesleyan-Media-Project/party_classifier) (party_classifier)
-
-Multinomial party classifier, classifying ads into DEM/REP/OTHER. The difference to the Unique ID party classifier is that in this one, the training data consists of individual ads whose pd_id has party_all coded in the WMP entity file. By contrast, the Unique ID party classifier concatenates all ads of a pd_id into one.
+This repository contains models to predict the tone of political ads.
 
 ### [Party Classifier with Unique ID](https://github.com/Wesleyan-Media-Project/party_classifier_pdid) (party_classifier_pdid)
 
 Contains the steps to train the party classifier and links for training results. Model Performance (shown in a chart) looks for precision, recall, f1 score, and support for each party(republican, democrat, and other).
 
-### [Ad Goal Classifier](https://github.com/Wesleyan-Media-Project/ad_goal_classifier)
+### [Ad-level Party Classifier](https://github.com/Wesleyan-Media-Project/party_classifier) (party_classifier)
 
-The purpose of this repository is to classify the goals of advertisements across different data sources, including Facebook, TV, and Google. It involves a series of scripts that clean and prepare the data, train a machine learning model, and apply the trained model to different data sets for inference. 
+Multinomial party classifier, classifying ads into DEM/REP/OTHER. The difference to the Unique ID party classifier is that in this one, the training data consists of individual ads whose pd_id has party_all coded in the WMP entity file. By contrast, the Unique ID party classifier concatenates all ads of a pd_id into one.
 
 ### [Attack Like](https://github.com/Wesleyan-Media-Project/attack_like)
 
@@ -110,13 +92,29 @@ This repository contains the code for attack-like negativity measure for the 1.4
 
 The classifier outputs class labels (Support/Attack) as well as class probabilities. The probabilities can be used to construct a 'Contrast' label.
 
+### [Ad Goal Classifier](https://github.com/Wesleyan-Media-Project/ad_goal_classifier)
+
+The purpose of this repository is to classify the goals of advertisements across different data sources, including Facebook, TV, and Google. It involves a series of scripts that clean and prepare the data, train a machine learning model, and apply the trained model to different data sets for inference. 
+
 ### [Issue classifier](https://github.com/Wesleyan-Media-Project/issue_classifier)
 
 Issue classifier, trained on 2018 and 2020 ads - both TV and Facebook, designed to be applied to uncoded 2022 ads. Based on WMP issue coding - not Kantar.
 
-### [Ad Tone](https://github.com/Wesleyan-Media-Project/ad_tone)
 
-This repository contains models to predict the tone of political ads.
+---
+## Step 2a3a/: Data Merging
+### [Data Post Production](https://github.com/Wesleyan-Media-Project/data-post-production)
+
+This repo contains code that allows for merging different data fields and final data cleaning.
+
+---
+## Step 4: Compiled Final Data
+### [Datasets](https://github.com/Wesleyan-Media-Project/datasets)
+
+This repository is meant as a place to store datasets whose creation isn't assumed to be replicable (but which are used as inputs to other things that are meant to be replicable from that point on).
+
+### [Facebook Page Names](https://github.com/Wesleyan-Media-Project/fb_page_names) (fb_page_names)
+This repository contains data and SQL scripts showing the history of changes in page names of FB advertisers. This repository describes the known problems with changes in page names of Facebook advertisers.
 
 ---
 ## Note on R and RData files From Markus Neumann:
