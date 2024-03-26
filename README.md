@@ -17,6 +17,7 @@ Repositories defined in these steps do not neccesarily rely on a repository from
 
 Below, you can find an overview of all repositories under the WMP organization belonging to the CREATIVE project. Also, check [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description) for clarity on acronyms. 
 
+![A picture of the pipeline diagram](CREATIVE_032524.png)
 ## Working Repositories
 
 ## Step 1: Data Collection
