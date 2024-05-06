@@ -1,6 +1,7 @@
 # The Cross-platform Election Advertising Transparency Initiative (CREATIVE)
 
 ## About
+Welcome! This repo contains information about and links to the various repositories that make up the CREATIVE project. We hope that through having a centralized overview page, we are making navigating this project more accessible for journalists, academic researchers, and others interested in the democratic process. 
 
 The Cross-platform Election Advertising Transparency Initiative (CREATIVE), is a jointly founded infrastructure project by Wesleyan Media Project [(WMP)](https://mediaproject.wesleyan.edu) and [Privacy Tech Lab](https://privacytechlab.org) at Wesleyan University in Connecticut. This program is funded by a National Science Foundation [grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2235006) to support making WMP’s work and data accessible to anyone. CREATIVE aims to provide cross-platform integration and standardization of digital advertising data related to federal elections by scraping or gaining access to digital ads themselves. (For more information on the CREATIVE project, click [here](https://www.creativewmp.com/)).
 
@@ -124,3 +125,36 @@ This repository contains data and SQL scripts showing the history of changes in 
 RData files are the standard way of saving data in R. WMP uses them because 1) they are compressed by default, so they're smaller than csvs, and 2) because they retain information on data types. So for example, we have ad ids, which are numbers. So an ad id might be 2323532312. And if we save data as a csv and then reimport it, the importer makes some assumptions on each object's types, and sometimes it's wrong. This can cause those objects to be irreversibly mangled. To avoid that, in R, we tend to set them to strings, not integers (this is standard practice in computational social science). And if it is later loaded from an rdata file, it will know it's a string. Whereas if it is imported from a csv, it will usually think it's an integer, but depending on how high it is it will encode it as int16, int32, etc. and that can cause problems.
 
 [Here are the results of some experiments with file compression of rdata and alternatives](https://github.com/Wesleyan-Media-Project/github_howto/wiki/File-compression)
+
+
+## Thank You
+
+<p align="center"><strong>We would like to thank our financial supporters!</strong></p><br>
+
+<p align="center">This material is based upon work supported by the National Science Foundation under Grant Numbers 2235006, 2235007, and 2235008.</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2235006">
+    <img class="img-fluid" src="nsf.png" height="150px" alt="National Science Foundation Logo">
+  </a>
+</p>
+
+<p align="center">The Cross-Platform Election Advertising Transparency Initiative (CREATIVE) is a joint infrastructure project of the Wesleyan Media Project and privacy-tech-lab at Wesleyan University in Connecticut.
+
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://www.creativewmp.com/">
+    <img class="img-fluid" src="CREATIVE_logo.png"  width="220px" alt="CREATIVE Logo">
+  </a>
+</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://mediaproject.wesleyan.edu/">
+    <img src="wmp-logo.png" width="218px" height="100px" alt="Wesleyan Media Project logo">
+  </a>
+</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://privacytechlab.org/" style="margin-right: 20px;">
+    <img src="./plt_logo.png" width="200px" alt="privacy-tech-lab logo">
+  </a>
+</p>
