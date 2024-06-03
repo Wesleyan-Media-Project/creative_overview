@@ -83,7 +83,7 @@ This repository contains models to predict the tone of political ads.
 
 ### [Party Classifier with Unique ID](https://github.com/Wesleyan-Media-Project/party_classifier_pdid) (party_classifier_pdid)
 
-Contains the steps to train the party classifier and links for training results. Model Performance (shown in a chart) looks for precision, recall, f1 score, and support for each party(republican, democrat, and other).
+Contains the steps to train the party classifier and links for training results. Model Performance looks for precision, recall, f1 score, and support for each party (Republican, Democrat, and Other).
 
 ### [Ad-level Party Classifier](https://github.com/Wesleyan-Media-Project/party_classifier) (party_classifier)
 
@@ -91,7 +91,7 @@ Multinomial party classifier, classifying ads into DEM/REP/OTHER. The difference
 
 ### [Attack Like](https://github.com/Wesleyan-Media-Project/attack_like)
 
-This repository contains the code for attack-like negativity measure for the 1.4m Facebook dataset: attacklike_fb2020_140m.csv
+This repository contains the code for attack-like negativity measure for the Facebook and Google datasets.
 
 The classifier outputs class labels (Support/Attack) as well as class probabilities. The probabilities can be used to construct a 'Contrast' label.
 
