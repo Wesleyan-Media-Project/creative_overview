@@ -37,7 +37,7 @@ This repository provides the scripts that replicate the workflow used by the Wes
 
 Scripts used by the Wesleyan Media Project to import Facebook political ads.
 
-### [Google Ads Archive](https://github.com/Wesleyan-Media-Project/google_ads_archive)
+### [Google Ads Archive](https://github.com/Wesleyan-Media-Project/google_ads_archive) (google_ads_archive)
 
 Scripts used by the Wesleyan Media Project to import Google political ads.
 
@@ -65,11 +65,11 @@ This repository contains code for replicating the workflow used by the Wesleyan 
 
 ## Step 3: Data Classification
 
-### [Entity Linking 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022)
+### [Entity Linking 2022](https://github.com/Wesleyan-Media-Project/entity_linking_2022) (entity_linking_2022)
 
 This repository is central to the project and contains an entity linker for 2022 election data. This entity linker was trained on descriptions of election candidates and other people in the political process, including their names and aliases. Data are sourced from the 2022 WMP persons file, and are restricted to general election candidates and other non-candidate persons of interest (sitting senators, cabinet members, international leaders, etc.).
 
-### [Race of Focus](https://github.com/Wesleyan-Media-Project/race_of_focus)
+### [Race of Focus](https://github.com/Wesleyan-Media-Project/race_of_focus) (race_of_focus)
 
 Scripts in this repository focus on what political race an ad is about (based on what candidates are mentioned in an ad). It needs to use the entity linker. It only contains data files (rdata and csv).
 
@@ -77,7 +77,7 @@ Scripts in this repository focus on what political race an ad is about (based on
 
 This repository contains code for the Aspect-Based Sentiment Analysis (ABSA) project. It contains data, models, and scripts for ABSA training.
 
-### [Ad Tone](https://github.com/Wesleyan-Media-Project/ad_tone)
+### [Ad Tone](https://github.com/Wesleyan-Media-Project/ad_tone) (ad-tone)
 
 This repository contains models to predict the tone of political ads.
 
@@ -89,27 +89,27 @@ This repository contains the steps to train a party classifier and links for tra
 
 Multinomial party classifier classifying ads into DEM/REP/OTHER. The difference to the Unique ID party classifier is that for this classifier the training data consists of individual ads whose pd_id has party_all coded in the WMP entity file. By contrast, the Unique ID party classifier concatenates all ads of a pd_id into one.
 
-### [Attack Like](https://github.com/Wesleyan-Media-Project/attack_like)
+### [Attack Like](https://github.com/Wesleyan-Media-Project/attack_like) (attack-like)
 
 This repository contains the code for the attack-like negativity measure for the Facebook and Google datasets. The classifier outputs class labels (Support/Attack) as well as class probabilities. The probabilities can be used to construct a 'Contrast' label.
 
-### [Ad Goal Classifier](https://github.com/Wesleyan-Media-Project/ad_goal_classifier)
+### [Ad Goal Classifier](https://github.com/Wesleyan-Media-Project/ad_goal_classifier) (ad_goal_classifier)
 
 The purpose of this repository is to classify the goals of advertisements across different data sources, including Facebook, TV, and Google. It involves a series of scripts that clean and prepare the data, train a machine learning model, and apply the trained model to different datasets for inference.
 
-### [Issue classifier](https://github.com/Wesleyan-Media-Project/issue_classifier)
+### [Issue classifier](https://github.com/Wesleyan-Media-Project/issue_classifier) (issue_classifier)
 
 Issue classifier trained on 2018 and 2020 ads --- both TV and Facebook, designed to be applied to uncoded 2022 ads. Based on WMP issue coding --- not Kantar.
 
 ## Step 2a/3a: Data Merging
 
-### [Data Post Production](https://github.com/Wesleyan-Media-Project/data-post-production)
+### [Data Post Production](https://github.com/Wesleyan-Media-Project/data-post-production) (data-post-production)
 
 This repo contains code that allows for merging different data fields and final data cleaning.
 
 ## Step 4: Compiled Final Data
 
-### [Datasets](https://github.com/Wesleyan-Media-Project/datasets)
+### [Datasets](https://github.com/Wesleyan-Media-Project/datasets) (datasets)
 
 This repository is a place to store datasets whose creation is not assumed to be replicable (but which are used as inputs to other scripts or resources that are meant to be replicable from that point on).
 
