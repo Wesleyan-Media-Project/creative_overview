@@ -47,7 +47,7 @@ Scripts to collect and clean advertising reports from Facebook, ready to be anal
 
 ### [Facebook PD ID](https://github.com/Wesleyan-Media-Project/fb_pd_id) (fb_pd_id)
 
-This repository provides the scripts for generating the FB identity ids --- pd ids --- used by WMP.
+This repository provides the scripts for generating the FB identity ids --- pd ids --- used by the Wesleyan Media Project.
 
 ## Step 2: Data Processing
 
