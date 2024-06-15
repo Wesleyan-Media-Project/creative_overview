@@ -21,7 +21,7 @@ For each of these steps in the pipeline we developed various scripts:
 
 Scripts in one repository may depend on scripts from a repository of a previous step. However, that is not always the case. It depends on what you want to do. Check out the documentation in the repository whose scripts you want to run to learn about any dependencies.
 
-For our usage of acronyms check out our [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description).
+For our usage of variable names and acronyms check out our [Variable Wiki](https://github.com/Wesleyan-Media-Project/fb_entities_2020/wiki/Variable-Description).
 
 ## Step 1: Data Collection
 
