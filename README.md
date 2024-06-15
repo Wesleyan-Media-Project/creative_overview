@@ -95,7 +95,7 @@ This repository contains the code for the attack-like negativity measure for the
 
 ### [Ad Goal Classifier](https://github.com/Wesleyan-Media-Project/ad_goal_classifier)
 
-The purpose of this repository is to classify the goals of advertisements across different data sources, including Facebook, TV, and Google. It involves a series of scripts that clean and prepare the data, train a machine learning model, and apply the trained model to different data sets for inference.
+The purpose of this repository is to classify the goals of advertisements across different data sources, including Facebook, TV, and Google. It involves a series of scripts that clean and prepare the data, train a machine learning model, and apply the trained model to different datasets for inference.
 
 ### [Issue classifier](https://github.com/Wesleyan-Media-Project/issue_classifier)
 
