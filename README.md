@@ -16,7 +16,7 @@ For each of these steps in the pipeline we developed various scripts:
 - [Step 1: Data Collection](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-1-data-collection)
 - [Step 2: Data Processing](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-2-data-processing)
 - [Step 3: Data Classification](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-3-data-classification)
-- [Step 2a/3a: Data Merging](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step2a/3a-data-merging)
+- [Step 2a/3a: Data Merging](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main?tab=readme-ov-file#step-2a3a-data-merging)
 - [Step 4: Compiled Final Data](https://github.com/Wesleyan-Media-Project/creative_overview/tree/main#step-4-compiled-final-data)
 
 Scripts in one repository may depend on scripts from a repository of a previous step. However, that is not always the case. It depends on what you want to do. Check out the documentation in the repository whose scripts you want to run to learn about any dependencies.
