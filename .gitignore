@@ -109,6 +109,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.env.local
+.env.*.local `
+
+
 
 # Spyder project settings
 .spyderproject
@@ -131,6 +135,9 @@ dmypy.json
 #local macOS files 
 .DS_Store
 .idea/
+
+#vscode 
+.vscode
 
 # Old Readme
 
