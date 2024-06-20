@@ -99,7 +99,7 @@ The purpose of this repository is to classify the goals of advertisements across
 
 ### [Issue classifier](https://github.com/Wesleyan-Media-Project/issue_classifier) (issue_classifier)
 
-Issue classifier trained on 2018 and 2020 ads --- both TV and Facebook, designed to be applied to uncoded 2022 ads. Based on WMP issue coding, for which examples of issue_codes look like `ISSUE53` and `ISSUE10`, with the respective labels for these codes being `Health Care (not prescription drugs)` and `Taxes`.
+Issue classifier trained on 2018 and 2020 ads --- both TV and Facebook, designed to be applied to uncoded 2022 ads. Based on WMP issue coding, for which examples of issue_codes look like 'ISSUE53' and 'ISSUE10', with the respective labels for these codes being 'Health Care (not prescription drugs)' and 'Taxes'.
 
 ## Step 2a/3a: Data Merging
 
