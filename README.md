@@ -89,10 +89,6 @@ This repository contains the steps to train a party classifier and links for tra
 
 Multinomial party classifier classifying ads into DEM/REP/OTHER. The difference to the Unique ID party classifier is that for this classifier the training data consists of individual ads whose pd_id has party_all coded in the WMP entity file. By contrast, the Unique ID party classifier concatenates all ads of a pd_id into one.
 
-### [Attack Like](https://github.com/Wesleyan-Media-Project/attack_like) (attack-like)
-
-This repository contains the code for the attack-like negativity measure for the Facebook and Google datasets. The classifier outputs class labels (Support/Attack) as well as class probabilities. The probabilities can be used to construct a 'Contrast' label.
-
 ### [Ad Goal Classifier](https://github.com/Wesleyan-Media-Project/ad_goal_classifier) (ad_goal_classifier)
 
 The purpose of this repository is to classify the goals of advertisements across different data sources, including Facebook, TV, and Google. It involves a series of scripts that clean and prepare the data, train a machine learning model, and apply the trained model to different datasets for inference.
