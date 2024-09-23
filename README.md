@@ -71,7 +71,7 @@ This repository is central to the project and contains an entity linker for 2022
 
 ### [Race of Focus](https://github.com/Wesleyan-Media-Project/race_of_focus) (race_of_focus)
 
-This repository contains scripts focusing on classsifying which political race an ad focuses on (based on which candidates are mentioned in the ad). It contains scripts, along with data files (rdata and csv) with race of focus information for ads the Wesleyan Media Project collected and processed.
+This repository contains scripts focusing on classsifying which political race an ad focuses on (based on which candidates are mentioned in the ad). It contains scripts, along with data files (rdata and csv) with race of focus information for ads the Wesleyan Media Project collected and processed. For reference, whenever we reference race of focus for a candidate, we are referencing the office for which the candidate is running. 
 
 ### [Aspect-Based Sentiment Analysis](https://github.com/Wesleyan-Media-Project/ABSA) (ABSA)
 
